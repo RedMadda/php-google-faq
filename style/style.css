@@ -1,0 +1,70 @@
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* commons */
+* a {
+    text-decoration: none;
+}
+
+a *{
+    color: black;
+}
+
+.grey{
+    color: #5f6368;
+    font-weight: 600;
+}
+
+/* top header */
+#goog-logo{
+    width: 95px;
+}
+
+.privacy-text{
+    padding-top: 20px;
+    position: relative;
+    right: 8px;
+}
+
+#menu-icon{
+    width: 20px;
+}
+
+#profile-pic{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+/* nav */
+.nav-wrapper{
+    border-bottom: 1px solid #d6dbe2
+}
+
+nav ul{
+    margin-bottom: 10px;
+
+}
+.active{
+    color: #3367D6;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #3367D6;
+}
+
+/* main */
+
+p.question{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* footer */
+
+#footer-txt a{
+    color: #5f6368;
+    font-size: 0.8rem;
+}
